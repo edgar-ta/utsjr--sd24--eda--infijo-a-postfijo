@@ -32,6 +32,7 @@ Los siguientes scripts se pueden ejecutar desde la consola de la plataforma corr
 ### Windows (usando PowerShell)
 
 ```ps1
+# Crear carpeta bin si no existe
 if (!(Test-Path -Path "bin")) {
     New-Item -ItemType Directory -Path "bin"
 }
